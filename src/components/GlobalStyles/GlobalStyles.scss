@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+// color
+:root {
+  --primary-color: #242f9b;
+  //   #646FD4; #9BA3EB; #DBDFFD;
+
+  --text-color: #000;
+  --background-color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1;
+
+  background-color: var(--background-color);
+}
+
+button,
+input,
+textarea {
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+}
+
+button,
+a[href] {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
